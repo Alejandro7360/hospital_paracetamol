@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Hospital_paracetamol</string>
+    <string name="N_paciente">Nombre Paciente: </string>
+    <string name="E_paciente">Edad Paciente: </string>
+    <string name="C_paciente">Correo Paciente: </string>
+    <string name="T_Paciente">Telefono Paciente: </string>
+    <string name="Direccion">Dirección: </string>
+    <string name="I_Paciente">Imagen Paciente: </string>
+    <string name="Padecimiento">Padecimiento: </string>
+    <string name="Fecha_cita">Fecha Cita: </string>
+    <string name="Hora_Cita">Hora Cita: </string>
+    <string name="Elegir_Doctor">Elegir Doctor: </string>
+    <string name="Botoni">Photo Gallery</string>
+    <string-array name="doctors_array">
+        <item>Choose your doctor</item>
+        <item>D. crotolamo</item>
+        <item>D. Profesor patricio</item>
+        <item>D. bishisuas</item>
+        <item>D. pepper</item>
+        <item>D. strange</item>
+        <item>D. javu</item>
+        <item>D. va</item>
+        <item>D. mengueche</item>
+        <item>D. frio</item>
+        <item>D. simi</item>
+    </string-array>
+</resources>
