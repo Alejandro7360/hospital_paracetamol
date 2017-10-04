@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Spinner;
@@ -80,6 +81,24 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     }
     @Override
     public void onPointerCaptureChanged(boolean hasCapture) {
+
+    }
+
+    public void toastEvent(View v)
+    {
+        EditText uno = (EditText)findViewById(R.id.TE1);
+        EditText dos = (EditText)findViewById(R.id.TE2);
+        EditText tres = (EditText)findViewById(R.id.TE3);
+        EditText cuatro = (EditText)findViewById(R.id.TE4);
+        EditText cinco = (EditText)findViewById(R.id.TE5);
+        EditText seis = (EditText)findViewById(R.id.TE6);
+        EditText siete = (EditText)findViewById(R.id.TE7);
+        EditText ocho = (EditText)findViewById(R.id.TE8);
+        Spinner spinner = (Spinner) findViewById(R.id.doctor_spinner);
+        Toast.makeText(MainActivity.this, "Nombre del paciente: " + uno.getText() + " \nEdad del paciente: " + dos.getText() + " \nCorreo del paciente: " + tres.getText() +
+                " \nTelefono del paciente: " + cuatro.getText() + " \nDirección del paciente: " + cinco.getText() + " \nPadecimiento del paciente: " + seis.getText() +
+                " \nFecha de cita: " + siete.getText() + " \nHora de cita: " + ocho.getText() + " \nDoctor que te atenderá: " + spinner.getSelectedItem().toString()
+                ,Toast.LENGTH_LONG).show();
 
     }
 }

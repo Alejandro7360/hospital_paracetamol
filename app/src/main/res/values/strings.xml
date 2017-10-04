@@ -11,6 +11,7 @@
     <string name="Hora_Cita">Hora Cita: </string>
     <string name="Elegir_Doctor">Elegir Doctor: </string>
     <string name="Botoni">Photo Gallery</string>
+    <string name="botong">Guardar</string>
     <string-array name="doctors_array">
         <item>Choose your doctor</item>
         <item>D. crotolamo</item>
